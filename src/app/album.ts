@@ -1,7 +1,9 @@
+import { Track } from './track';
+
 export interface Album {
-    let name:string = ""
-    let releaseDate:string = ""
-    let coverImage:string = ""
-    let tracks:Track[] = ""
+    name: string;
+    releaseDate: string;
+    coverImage: string;
+    tracks: Track[];
     
 }
